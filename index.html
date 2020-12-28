@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boop</title>
+    <script src="j/j.js"></script>
+    <script src="https://unpkg.com/css-doodle@0.12.2/css-doodle.min.js"></script>
+    <link rel="stylesheet" href="c/c.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#draggable" ).draggable();
+        } );
+        </script>
+
+</head>
+<body>
+    <style>
+    </style>
+    <css-doodle>
+        @grid: 1x60 / 100vw, 100vh;
+        @size: 90% 2px;
+        justify-self: center;
+        background: #1C6195;
+        opacity: calc(1 - @i / @size);
+        transform:
+          rotate(-15deg)
+          translateX(calc(@sin(@i / 4) * π * 20px));
+    </css-doodle>
+    <div id="draggable" class="box1 ui-widget-content">
+        <span>
+            zane schaffer
+            <a  target="_blank" href="https://zanes.house/me">°</a>
+        </span>
+
+        <span>
+            <a target="_blank" href="https://www.google.com/maps/place/Los+Angeles,+CA/data=!4m2!3m1!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4?sa=X&ved=2ahUKEwikxd7g-e_tAhXFop4KHTZUAz4Q8gEwAHoECAYQAQ">°</a> los angeles, ca
+        </span>
+
+        <span>
+            hello@zanes.house
+            <a target="_blank" href="mailto:hello@zanes.house">°</a>
+        </span>
+
+        <span>
+            <a target="_blank" href="https://soundcloud.com/zaneschaffer">°</a> music
+        </span>
+    </div>
+    <!-- <div class="box2">
+        <span>
+            los angeles, ca
+        </span>
+    </div>
+    <div class="box3">
+        <span>
+            soundcloud
+        </span>
+    </div>
+    <div class="box4">
+        <span>
+            spotify
+        </span>
+    </div> -->
+
+    
+    
+</body>
+</html>
