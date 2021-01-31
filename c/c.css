@@ -1,86 +1,85 @@
 body {
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    background-color: #F2FAFF;
-    overflow: hidden;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: #f2faff;
+  overflow: hidden;
 }
-
 
 .box1 {
-    z-index: 100;
-    width: 25%;
-    height: 20%;
-    padding: 2%;
-    min-width: 200px;
-    min-height: 160px;
-    line-height: 2;
-    position: absolute;
-    text-align: center;
-    box-shadow: 8px 8px 2px rgb(63, 62, 62, 0.6);
-    top: 5%;
-    left: 5%;
-    border-color: black;
-    border-style: ridge;
-    border-width: 1px;
-    background-color: #F8FCFF;
+  z-index: 100;
+  width: 25%;
+  height: 20%;
+  padding: 2%;
+  min-width: 200px;
+  min-height: 160px;
+  line-height: 2;
+  position: absolute;
+  text-align: center;
+  box-shadow: 8px 8px 2px rgb(63, 62, 62, 0.6);
+  top: 5%;
+  left: 5%;
+  border-color: black;
+  border-style: ridge;
+  border-width: 1px;
+  background-color: #f8fcff;
+  cursor: move;
 }
 span {
-    display: block;
-    cursor: default;
+  display: block;
+  cursor: default;
 }
 a {
-    text-decoration: none;
-    color: black;
-    
+  text-decoration: none;
+  color: black;
 }
 a:hover {
-    color:grey;
-    font-weight: 200;
+  color: grey;
+  font-weight: 200;
 }
 
 .box2 {
-    z-index: 100;
-    width: 25%;
-    height: 25%;
-    padding: 2%;
-    position: absolute;
-    text-align: center;
-    box-shadow: 8px 8px rgb(63, 62, 62);
-    top: 5%;
-    right: 5%;
-    border-color: black;
-    border-style: ridge;
-    border-width: 1px;
-    background-color: #F8FCFF;
+  z-index: 100;
+  width: 25%;
+  height: 25%;
+  padding: 2%;
+  position: absolute;
+  text-align: center;
+  box-shadow: 8px 8px rgb(63, 62, 62);
+  top: 5%;
+  right: 5%;
+  border-color: black;
+  border-style: ridge;
+  border-width: 1px;
+  background-color: #f8fcff;
 }
 .box3 {
-    z-index: 100;
-    width: 25%;
-    height: 25%;
-    padding: 2%;
-    position: absolute;
-    text-align: center;
-    box-shadow: 8px 8px rgb(63, 62, 62);
-    bottom: 5%;
-    left: 5%;
-    border-color: black;
-    border-style: ridge;
-    border-width: 1px;
-    background-color: #F8FCFF;
+  z-index: 100;
+  width: 25%;
+  height: 25%;
+  padding: 2%;
+  position: absolute;
+  text-align: center;
+  box-shadow: 8px 8px rgb(63, 62, 62);
+  bottom: 5%;
+  left: 5%;
+  border-color: black;
+  border-style: ridge;
+  border-width: 1px;
+  background-color: #f8fcff;
 }
 .box4 {
-    z-index: 100;
-    width: 25%;
-    height: 25%;
-    padding: 2%;
-    position: absolute;
-    text-align: center;
-    box-shadow: 8px 8px rgb(63, 62, 62);
-    bottom: 5%;
-    right: 5%;
-    border-color: black;
-    border-style: ridge;
-    border-width: 1px;
-    background-color: #F8FCFF;
+  z-index: 100;
+  width: 25%;
+  height: 25%;
+  padding: 2%;
+  position: absolute;
+  text-align: center;
+  box-shadow: 8px 8px rgb(63, 62, 62);
+  bottom: 5%;
+  right: 5%;
+  border-color: black;
+  border-style: ridge;
+  border-width: 1px;
+  background-color: #f8fcff;
 }
