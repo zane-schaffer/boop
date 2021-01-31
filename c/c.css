@@ -23,11 +23,11 @@ body {
   border-style: ridge;
   border-width: 1px;
   background-color: #f8fcff;
-  cursor: move;
+  cursor: grab;
 }
 span {
   display: block;
-  cursor: default;
+  cursor: grab;
 }
 a {
   text-decoration: none;
