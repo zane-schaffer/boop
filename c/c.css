@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   font-size: 20px;
   font-weight: 100;
-  background-color: #f2faff;
+  background-color: #1d242e;
   overflow: hidden;
   max-width: 100vw;
 }
@@ -18,15 +18,16 @@ body {
   line-height: 2;
   position: absolute;
   text-align: center;
-  box-shadow: 8px 8px 2px rgb(63, 62, 62, 0.6);
+  box-shadow: 8px 8px 2px #060c0e46;
   top: 5%;
   left: 5%;
-  border-color: black;
+  border-color: #808080;
   border-style: ridge;
   border-width: 1px;
-  background-color: #f8fcff;
+  background-color: #060c0e;
   cursor: crosshair;
   overflow: hidden;
+  color: #cfd5e2;
 }
 span {
   display: block;
@@ -36,7 +37,7 @@ span {
 }
 a {
   text-decoration: none;
-  color: #1c6195;
+  color: #67849b;
   transition: 0.2s ease-out;
   cursor: crosshair;
 }

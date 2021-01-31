@@ -31,9 +31,11 @@
   <body>
     <style></style>
     <css-doodle>
-      @grid: 1x60 / 100vw, 100vh; @size: 90% 2px; justify-self: center;
-      background: #1C6195; opacity: calc(1 - @i / @size); transform:
-      rotate(-15deg) translateX(calc(@sin(@i / 4) * π * 20px));
+      :container { width: 100vw; margin: auto; position:absolute; left: 0px;
+      right:0px; } @grid: 50x100 / 100vw, 100vh; @size: 1% 10%; margin: auto;
+      justify-self: center; border-radius: 20px; background: #ffffff; opacity:
+      calc(1 - @i / @size); transform: rotate(0deg) translateX(calc(@sin(@i /
+      50) * π * 50px));
     </css-doodle>
     <div id="draggable" class="box1 ui-widget-content">
       <span>
@@ -48,6 +50,8 @@
           >los angeles, ca</a
         >',
       </span>
+
+      <span class="indented time"> time : ,</span>
 
       <span class="indented">
         email : '<a target="_blank" href="mailto:hello@zanes.house"
@@ -91,5 +95,6 @@
             spotify
         </span>
     </div> -->
+    <script src="./j/j.js"></script>
   </body>
 </html>
