@@ -1,6 +1,6 @@
 newFunction();
 function newFunction() {
-  let time = new Date();
+  let time = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));
   let hours = time.getHours();
   let minutes = time.getMinutes();
   const clock = document.querySelector(".time");
