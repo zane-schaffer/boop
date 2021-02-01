@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "M+ MN Type-1 (basic latin) Light";
-  src: url ("mplus-1mn-light-sub.eot");
-  src: url ("mplus-1mn-light-sub.eot? #iefix") format ("embedded-opentype"),
-    url ("mplus-1mn-light-sub.woff") format ("woff"),
-    url ("mplus-1mn-light-sub.ttf") format ("truetype");
+  font-family: MType;
+  src: url("/mplus-1mn-light-sub.woff");
+  font-display: swap;
 }
 
 body {
+  font-family: MType;
   font-size: 20px;
   font-weight: 100;
   background-color: #1d242e;
