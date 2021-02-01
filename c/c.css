@@ -52,12 +52,12 @@ a:hover {
 
 .indented {
   padding-left: 20px;
-  border-left: 1px rgba(0, 0, 0, 0.411) solid;
+  border-left: 1px #cfd5e21e solid;
 }
 
 .moreindented {
   padding-left: 40px;
-  border-left: 1px rgba(0, 0, 0, 0.411) solid;
+  border-left: 1px #cfd5e21e solid;
 }
 
 @keyframes fadeIn {
