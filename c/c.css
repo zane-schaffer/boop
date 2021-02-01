@@ -89,11 +89,11 @@ a:hover {
   }
   .indented {
     padding-left: 20px;
-    border-left: 1px #cfd5e27c solid;
+    border-left: 1px #cfd5e23f solid;
   }
 
   .moreindented {
     padding-left: 40px;
-    border-left: 1px #cfd5e27c solid;
+    border-left: 1px #cfd5e23f solid;
   }
 }
