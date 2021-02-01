@@ -77,7 +77,7 @@ a:hover {
     right: 0;
 
     border-color: black;
-    border-style: ridge;
+    border-style: double;
     border-width: 1px;
     background-color: transparent;
     cursor: crosshair;
