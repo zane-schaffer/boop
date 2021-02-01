@@ -73,6 +73,8 @@ a:hover {
     text-align: center;
     box-shadow: none;
     top: 5%;
+    left: 0;
+    right: 0;
 
     border-color: black;
     border-style: ridge;
