@@ -97,11 +97,12 @@ a:hover {
     top: 5%;
     left: 0;
     right: 0;
-
+    box-shadow: 4px 4px 8px #060c0e1e;
     border-color: black;
     border-style: double;
     border-width: 1px;
     background-color: transparent;
+    backdrop-filter: blur(1.8px);
     cursor: crosshair;
     overflow: hidden;
   }
