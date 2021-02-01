@@ -37,17 +37,20 @@ span {
   cursor: crosshair;
   overflow: hidden;
   animation: fadeIn 3s ease-in-out;
+  user-select: none;
 }
 a {
   text-decoration: none;
   color: #67849b;
   transition: 0.2s ease-out;
   cursor: crosshair;
+  user-select: none;
 }
 a:hover {
   color: #cfd5e2;
   font-weight: 100;
   cursor: crosshair;
+  user-select: none;
 }
 
 .indented {
