@@ -68,6 +68,7 @@ a:hover {
     max-width: 60%;
     min-height: 460px;
     line-height: 2;
+    margin: auto;
 
     text-align: center;
     box-shadow: none;
@@ -83,5 +84,14 @@ a:hover {
   body {
     overflow: hidden;
     width: auto;
+  }
+  .indented {
+    padding-left: 20px;
+    border-left: 1px #cfd5e27c solid;
+  }
+
+  .moreindented {
+    padding-left: 40px;
+    border-left: 1px #cfd5e27c solid;
   }
 }
