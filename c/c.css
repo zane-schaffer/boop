@@ -25,13 +25,14 @@ body {
   line-height: 2;
   position: absolute;
   text-align: center;
-  box-shadow: 8px 8px 2px #060c0e46;
+  box-shadow: 4px 4px 8px #060c0e1e;
   top: 5%;
   left: 5%;
   border-color: #808080;
   border-style: ridge;
   border-width: 1px;
-  background-color: #060c0e;
+  background-color: transparent;
+  backdrop-filter: blur(1.8px);
   cursor: crosshair;
   overflow: hidden;
   color: #cfd5e2;
