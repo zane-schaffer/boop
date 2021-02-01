@@ -5,6 +5,7 @@ body {
   background-color: #1d242e;
   overflow: hidden;
   max-width: 100vw;
+  cursor: crosshair;
 }
 
 .box1 {
@@ -44,8 +45,8 @@ a {
   cursor: crosshair;
 }
 a:hover {
-  color: grey;
-  font-weight: 200;
+  color: #cfd5e2;
+  font-weight: 100;
   cursor: crosshair;
 }
 
