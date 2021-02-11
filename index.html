@@ -37,16 +37,38 @@
   <body>
     <style></style>
     <css-doodle>
-      @keyframes flicker { from{ opacity: calc(1 - @size * @i); transform:
-      rotate(0deg) translateX(calc(@sin(@i / 8) * π * 40px));} to{ opacity:
-      calc(1 - @i / @size + 0.2); transform: rotate(-45deg)
-      translateX(calc(@sin(@i / 4) * π * 20px));} } :container { width: 100vw;
-      margin: auto; position:absolute; left: 0px; right:0px; } @grid: 100x100/
-      100vw, 100vh; @size: 1% @rand(1%,2%); border-radius:20px;margin: auto;
-      justify-self: center; background: #cfd5e2; animation: flicker 10s ease-out
+      @keyframes flicker { 
+        
+        from {  
+          background: #1d242e; 
+          transform: translateX(calc(@sin(@i / 8) * π * 40px));
+        } 
+      
+        to {  
+          background: #cfd5e2; 
+          transform: translateX(calc(@sin(@i / 4) * π * 20px));
+        } 
+      } 
+
+      :container {
+        background: #1d242e; 
+        width: 100vw;
+        margin: auto; 
+        position:absolute; 
+        left: 0px; 
+        right:0px; 
+      } 
+      @grid: 100x100 / 100vw, 100vh; 
+      @size: 1% @rand(1%,5%); 
+      border-radius:20px;
+      margin: auto;
+      justify-self: center; 
+      opacity: calc(1 - @i / @size + 0.2); 
+      background: #cfd5e2; 
+      animation: flicker 10s ease-in-out
       1 alternate forwards;
     </css-doodle>
-    <div id="draggable" class="box1 ui-widget-content">
+    <div id="draggable" class="box1 ui-widget-content ">
       <span>
         zaneSchaffer = {
         <!-- <a target="_blank" href="https://zanes.house/me">{}</a> -->
